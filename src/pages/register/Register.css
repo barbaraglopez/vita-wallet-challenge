@@ -1,0 +1,130 @@
+/* Estilos para PC */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+h1 {
+  text-align: left;
+  margin: 0; 
+}
+
+.container-content {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 90%;
+  justify-content: center;
+  width: 80%;
+}
+
+.container-register {
+  width: 50%;
+  padding: 5%;
+}
+
+.container-imagen {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 3%;
+}
+
+.container-imagen-img {
+  height: 100%;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-links a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.form-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .container-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0%;
+  }
+
+  h1 {
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .form-links {
+    flex-direction: column;
+    padding: 0%;
+    font-size: small;
+  }
+
+  .container-register, .container-imagen {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container-imagen {
+    order: 2;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .container-imagen-img {
+    height: 70%;
+    width: 100%;
+  }
+}
+

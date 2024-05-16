@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.container-title {
+  margin-left: 9%;
+  margin-top: 5%;
+  text-align: left;
+  width: 100%;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 90%;
+  justify-content: center;
+  width: 80%;
+}
+
+.container-login {
+  width: 40%;
+  padding: 5%;
+}
+
+.container-imagen {
+  width: 60%;
+  box-sizing: border-box;
+  padding: 3%;
+}
+
+.container-imagen-img {
+  height: 100%;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input {
+  width: 100%;
+  padding-right: 40px; /* Deja espacio para el icono */
+}
+
+.validation-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  width: 100%;
+  padding-right: 40px; /* Deja espacio para el icono */
+}
+
+.password-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.form-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-links a {
+  color: #6c757d; /* Gris */
+  text-decoration: none;
+}
+
+.form-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .container-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0%;
+  }
+
+  h1 {
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .form-links {
+    flex-direction: column;
+    padding: 0%;
+    font-size: small;
+  }
+
+  .container-login,
+  .container-imagen {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container-imagen {
+    order: 2;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .container-imagen-img {
+    height: 70%;
+    width: 100%;
+  }
+}

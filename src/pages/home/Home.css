@@ -1,0 +1,138 @@
+.home-container {
+  display: flex;
+  padding: 5%;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content-header .subtitle {
+  margin-left: 10px;
+}
+
+.header-image {
+  margin-left: 10px;
+}
+
+.content-balances {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3%;
+}
+
+.content-balances-currency {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.balance-item {
+  background-color: #e0e0e0;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 5px;
+  flex: 1;
+  text-align: left;
+  border: 1px solid #d3d3d3;
+  min-width: 200px;
+  /* Establece un ancho mínimo */
+}
+
+.balance-item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.balance-item-title h2 {
+  margin: 0;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.balance-item-title img {
+  margin-left: 10px;
+  height: 30px;
+}
+
+.balance-item p {
+  margin: 0;
+}
+
+.flag {
+  height: 30px;
+}
+
+
+.content-history {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-history h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content-history ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-history li {
+  border-top: 1px solid rgba(222, 224, 224, 1);
+  padding: 10px 0;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-type {
+  font-weight: bold;
+}
+
+.transaction-amount {
+  font-weight: bold;
+}
+
+.transaction-amount.enviaste {
+  color: rgba(206, 52, 52, 1);
+}
+
+.transaction-amount.recibiste {
+  color: rgba(5, 188, 185, 1);
+}
+
+@media (max-width: 900px) {
+  .content {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .content-balances-currency {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .balance-item {
+    width: 100%;
+  }
+
+  .content-history {
+    margin-top: 20px;
+  }
+}

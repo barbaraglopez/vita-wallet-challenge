@@ -1,0 +1,97 @@
+.form-container-content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10%;
+    margin-left: -5%;
+}
+
+.form-container-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-container-content form label {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.available-balance-text{
+  color:rgba(5, 188, 185, 1);
+  font-weight: 600;
+}
+
+.input-icon{
+  position: relative;
+  width: 100%;
+}
+
+.input-icon .input-icon-content{
+  padding-left: 30px;
+}
+
+.input-icon .icon {
+  position: absolute;
+  left: 2px;
+  top: 38%;
+  transform: translateY(-50%);
+  height: 20px; /* Ajusta la altura de la imagen según sea necesario */
+}
+
+.input-icon input {
+  padding-left: 40px;
+  width: 100%; /* Deja espacio para la imagen */
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.inputForm {
+  width: 100%; /* Ajustar el ancho del input */
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  box-sizing: border-box; /* Asegurar que el padding se incluya en el ancho total */
+  margin-bottom: 15px;
+}
+
+
+p {
+    margin-top: -5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons-container .btnForm{
+  width: 150px;
+  height: 50px;
+}
+
+
+@media (max-width: 900px) {
+  main.content.transfer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .form-container-content{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5%;
+  }
+}

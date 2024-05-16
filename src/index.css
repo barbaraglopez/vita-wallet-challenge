@@ -1,0 +1,146 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.button-primary{
+background: linear-gradient(to right, rgba(5, 188, 185, 1), rgba(22, 114, 135, 1));
+  color: white; 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.button-secondary{
+  background: none; 
+  border: 2px solid rgba(5, 188, 185, 1); 
+  color: rgba(5, 188, 185, 1); 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.button-secondary:hover{
+  background: linear-gradient(to right, rgba(5, 188, 185, 1), rgba(22, 114, 135, 1));
+  color: white; 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+/* Paleta de colores y tipografias */
+
+.dark-gray{
+  background-color: rgba(185, 193, 194, 1);
+}
+
+.gray-semi-dark{
+  background-color: rgba(222, 224, 224, 1);
+}
+
+.gray-semi-light{
+  background-color: (245, 246, 246, 1);
+}
+
+.light-gray{
+  background-color: rgba(249, 249, 250, 1);
+}
+
+.dark-blue{
+  background-color: rgba(22, 114, 135, 1);
+}
+
+.light-blue{
+  background-color: rgba(5, 188, 185, 1);
+}
+
+.blue-gradient{
+  background: linear-gradient(to right, rgba(5, 188, 185, 1), rgba(22, 114, 135, 1));
+}
+
+.dark-red{
+  background-color: (206, 52, 52, 1);
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+  font-size: 48px; 
+  line-height: 65.37px; 
+}
+
+.subtitle {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 600;
+  font-size: 28px; 
+  line-height: 38.13px; 
+}
+
+.subtitle-2-semibold{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+  font-size: 24px; 
+  line-height: 32.68px; 
+}
+
+.subtitle-2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  font-size: 24px; 
+  line-height: 32.68px; 
+}
+
+.buttons-others{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+  font-size: 16px; 
+  line-height: 21.79px; 
+}
+
+.fonts-body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  font-size: 16px; 
+  line-height: 21.79px; 
+}
+
+.caption1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  font-size: 16px; 
+  line-height: 19.07px; 
+}
+
+.caption2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; 
+  font-size: 12px; 
+  line-height: 16.34px; 
+}
+
+.content {
+  flex: 1;
+  margin-left: 300px;
+  transition: margin-left 0.3s ease;
+  padding: 20px;
+}
+
+
+@media (max-width: 900px) {
+  .content {
+    margin-left: 0;
+  }
+}
